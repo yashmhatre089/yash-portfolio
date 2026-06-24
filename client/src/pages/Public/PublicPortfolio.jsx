@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomCursor from '../../components/cursor/CustomCursor';
-import Hero from '../../sections/Hero/Hero';
+import Hero from '../../sections/hero/Hero';
 import About from '../../sections/About/About';
 import Education from '../../sections/Education/Education';
 import Metrics from '../../sections/Metrics/Metrics';

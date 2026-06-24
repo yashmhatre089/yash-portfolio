@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Color System */
+  --bg-primary: #0f0f0d;
+  --bg-secondary: #171714;
+  --accent-gold: #b89b5e;
+  --deep-green: #1e3226;
+  --text-primary: #f4efe2;
+  --text-secondary: rgba(244, 239, 226, 0.7);
+  --border-gold: rgba(184, 155, 94, 0.25);
+  --border-light: rgba(255, 255, 255, 0.05);
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Layout */
+  --max-width: 1440px;
+  --nav-height: 80px;
+  --section-padding: 8rem 0;
+
+  /* Easing for CSS Transitions */
+  --ease-luxury: cubic-bezier(0.65, 0, 0.35, 1);
+}

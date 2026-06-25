@@ -14,10 +14,15 @@ const PORT = process.env.PORT || 5000;
 // Security Middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
-  credentials: true
+    origin: [
+        'http://localhost:5173', 
+        'https://yash-portfolio-e19wwb8zw-yashmhtre089.vercel.app',
+        'https://yash-portfolio-psi-lac.vercel.app',
+        'https://yash-portfolio-git-main-yashmhtre089.vercel.app',
+        'https://yash-portfolio-yashmhtre089.vercel.app'
+    ],
+    credentials: true
 }));
-
 // Rate Limiting to prevent brute force attacks on CMS
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
